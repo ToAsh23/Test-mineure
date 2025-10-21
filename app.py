@@ -23,3 +23,8 @@ df = pd.DataFrame({
 st.header("Affichage de Données")
 st.write("Voici un DataFrame :")
 st.dataframe(df) # Affiche une table interactive
+
+habitudes = pd.read_csv ('C:/Users/andri/Documents/habitudes-indiv.csv')
+st.header("Données des habitudes alimenataires de la population")
+st.write("Voici le DataFrame général du document:")
+st.dataframe(habitudes)
