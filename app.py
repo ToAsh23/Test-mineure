@@ -1,5 +1,5 @@
 import streamlit as st
-
+import pandas as pd
 st.title("Bonjour à tous !")
 
 st.write('Mineure numérique')
@@ -9,4 +9,6 @@ carre = [1**1,2**2,3**3,4**4]
 
 d = {"nombre" : nombre, "carré": carre}
 
+data = pd.dataframe (d)
 
+data
