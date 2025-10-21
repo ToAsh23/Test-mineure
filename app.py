@@ -11,7 +11,7 @@ d = {"nombre" : nombre, "carré": carre}
 
 data = pd.DataFrame (d)
 st.header("Premier exemple")
-st.write("Voici un DataFrame de nombre et leur carré par elle même :")
+st.write("Voici un DataFrame de nombre et leur carré par eux même :")
 st.dataframe(data)
 
 # Créer un exemple de DataFrame
