@@ -9,4 +9,4 @@ carre = [1**1,2**2,3**3,4**4]
 
 d = {"nombre" : nombre, "carré": carre}
 
-data = pd.DataFrame (d)
+
