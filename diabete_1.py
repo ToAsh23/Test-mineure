@@ -9,12 +9,10 @@ Original file is located at
 
 import pandas as pd
 import numpy as np
-from google.colab import drive
-drive.mount('/content/drive')
 
-"""# Visualisation des données"""
 
-file_path = '/content/diabetes_prediction_dataset.csv'
+file_path = 'diabetes_prediction_dataset.csv'
+
 df = pd.read_csv(file_path)
 df.head(10)
 
