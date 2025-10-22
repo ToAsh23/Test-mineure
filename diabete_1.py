@@ -10,10 +10,7 @@ Original file is located at
 import pandas as pd
 import numpy as np
 
-
-file_path = 'diabetes_prediction_dataset.csv'
-
-df = pd.read_csv(file_path)
+df = pd.read_csv('diabetes_prediction_dataset.csv')
 df.head(10)
 
 df.isnull().sum()
